@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:500,500i,700,700i|Londrina+Solid:400,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/intro.css">
+    <title>Oogst in Gevaar! Instructies</title>
+</head>
+<body>
+    <h1>Welkom in het <span class = "main-title">planten</span> labo!</h1>
+
+    <form id="chef-select">
+
+        <h3>1: Klik om jouw wetenschapper te kiezen:</h3>
+        <div id = "photos-spacer">
+        <input type="image" src="images/Male.png" name="user-chef-male" class="user-chef-male" id="male"/>
+        <input type="image" src="images/Female.png" name="user-chef-female" class="user-chef-female" id="female"/>
+        </div>
+    </form>
+    <div id="instructions">
+        <h3>2: Spelverloop</h3>
+        <p>De komende drie rondes is het jouw taak om de planten die ons van voedsel voorzien te redden van de gevolgen van de klimaatverandering.</p>
+        <p>De boer zal je vertellen welk probleem hij ondervindt, en jij zal de beste oplossing moeten aanduiden om de planten hiertegen te wapenen.</p>
+        <p>Ieder item zal bijdragen aan jouw score, betere oplossingen leveren meer punten op.</p> 
+        <p></p>
+        <h3>3: Jouw gebruikersnaam</h3>
+        <div id="flex-grid">
+            <div id="row">
+                <form id ="player-name">
+                    <input type="text" name="username" maxlength="13" required>
+                    <input type="submit" value="Start Game!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src = "js/intro.js"></script>
+</body>
+</html>

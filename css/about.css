@@ -1,0 +1,89 @@
+
+body {
+    background-color: #d4d26c;
+    background-image: url('../images/Background.png'); 
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
+    }
+
+#about-body {
+    display: block;
+   
+    
+}
+
+#about-title-box {
+    display: block;
+    max-width: 50%;  
+    margin: auto;
+    
+
+}
+
+#bios {
+    display: flex;
+    height: auto;
+}
+
+.dev-whole {
+    display: block;
+    
+}
+
+.dev-name {
+    display: block;
+    margin: 7px;
+    
+}
+
+#special {
+    font-stretch: ultra-condensed;
+}
+
+h2 {
+    -webkit-margin-after: 0px;
+}
+
+.dev-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid black;
+    width:  150px;
+    height: 180px;
+    
+}
+
+.dev-bio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.dev-box {
+    display: block;
+    margin: 7px;
+   
+    background: rgb(206, 206, 206);
+    
+    padding: 20px 10px 10px 10px;
+    background: rgba(248, 248, 248, 0.559);
+
+    height: 275px;
+    /* width: 280px; */
+}
+
+.para {
+    margin: 8px, 7px, 7px, 7px;
+    padding: 8px;
+}
+
+.nav-container {
+    display: flex;
+    max-width: 50%;  
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

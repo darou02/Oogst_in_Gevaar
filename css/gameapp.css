@@ -1,0 +1,183 @@
+body {
+    font-weight: 500; 
+    text-align: center;
+    margin: 0px;
+    background-color: #d9f37b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%232ae802' fill-opacity='0.47' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");}
+
+
+#root {
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    background-repeat: repeat;
+    background-size: 1000px, 900px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    align-content: center;
+    width: 100%;
+}
+
+
+#exit-button {
+    float: right;
+    width: 50px;
+    height: 50px;
+    transform: translate(-10px, -40px);
+    opacity: 0.5;
+}
+
+#exit-button:hover {
+    opacity: 1;
+}
+
+#player-score-judge {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: -50px;
+}
+
+h1.main-title {
+    font-size: 3em;
+    margin: 0px;
+}
+
+.style-player {
+    height: 500px;
+    width: 300px;
+    z-index: 1;
+}
+.style-judge {
+    height: 500px;
+    width: 400px;
+    z-index: 1;
+    
+}
+
+.style-table {
+    margin-top: -5px;
+    width: 1200px;
+    height: 400px;
+    z-index: 2;
+}
+
+.player-name {
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 700;
+    font-size: 4em;
+    color: rgb(104, 82, 42);
+    line-height: 1em;
+    text-shadow: 5px 5px 0px #000;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+}
+
+.judge-name {
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 700;
+    font-size: 4em;
+    color: rgb(104, 82, 42);
+    line-height: 1em;
+    text-shadow: 5px 5px 0px #000;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.style-score {
+    font-size: 5em;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 900;
+    color: rgb(216, 57, 113);
+    text-shadow: 3px 3px 0px #fff;
+    text-align: center;
+    margin-bottom: -30x;
+}
+
+#round-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ingredient-selector {
+    margin-top: -580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recipe-name {
+    background-color: rgba(70, 169, 76, 0.838);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: 1000px;
+    height: auto;
+    flex-shrink: 0;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 500;
+    font-size: 3em;
+    color: #fff;
+    line-height: 1em;
+    text-shadow: 3px 3px 0px #000;
+    z-index: 4;
+    margin-top: 280px;
+}
+
+#ingredient { 
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    z-index: 5;
+}
+
+#style-roundbutton {
+    margin-bottom: -50px;
+    width: 350px;
+    cursor: pointer;
+    left: 330px;
+    top: 290px;
+    z-index: 4;
+}
+
+.individual-ingredient {
+    width: 250px;
+    height: 250px;
+    margin: 0px 1px;
+    cursor: pointer;
+
+}
+
+.selected-ingredient {
+    border: 3px solid rgb(23, 164, 33);
+    border-radius: 75px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+#transition-message-container {
+    position: fixed;
+    z-index: 11;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
