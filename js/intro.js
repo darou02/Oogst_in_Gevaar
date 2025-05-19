@@ -26,7 +26,7 @@ function playerNameSubmit(event) {
     // Cannot advance if a charater isn't selected 
     if(userData[0] === 'image location'){
         event.preventDefault();
-        alert('Kies eerst een wetenschapper.');
+        alert('Kies eerst een wetenschapper door erop te klikken.');
     }
     // Move on if character selected
     else {

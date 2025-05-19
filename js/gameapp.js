@@ -92,7 +92,7 @@ class GameApp {
 
                     this.roundDisplayComponent.update(this.roundNumber);
                 }
-            }, 7500);
+            }, 10000);
         });
         roundDisplaySection.appendChild(this.roundDisplayComponent.render());
         

@@ -18,7 +18,8 @@ h2.transition-message {
     text-align: center;
 }
 #transition-message-container {
-    background-color: rgb(218, 79, 39);
+    background-color: rgba(70, 169, 76, 0.838);
     padding: 20px;
     width: 500px;
+    height: -250px
 }
