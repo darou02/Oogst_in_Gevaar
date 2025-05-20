@@ -24,23 +24,7 @@ class Transition {
         this.roundScore = roundScore;
     
 
-        this.randomMessages = {
-            1: [//Drought
-                'Wist je dat? Sommige planten overleven in de woestijn omdat hun wortels water efficiënt opslaan!',
-                'Wist je dat? Bodembacteriën kunnen planten helpen droogte te overleven door hun wortels gezonder te maken!',
-                'Wist je dat? Wetenschappers onderzoeken hoe ze gewassen beter bestand kunnen maken tegen hitte en weinig water!',
-            ],
-            2: [//Flooding
-                'Wist je dat? Sommige planten hebben luchtzakjes in hun stengels waardoor ze onder water kunnen overleven!',
-                'Wist je dat? De juiste mix van bodembacteriën kan gewassen helpen groeien, zelfs als de grond te nat is!',
-                'Wist je dat? Sommige rijstsoorten kunnen overleven onder water doordat ze tijdelijk stoppen met groeien!',
-            ],
-            3: [//Insects
-                'Wist je dat? Boeren laten soms lieveheersbeestjes los om schadelijke insecten op te eten!',
-                'Wist je dat? Sommige planten weren van nature insecten af met speciale geuren!',
-                'Wist je dat? Wetenschappers onderzoeken hoe we gewassen sterker kunnen maken zonder pesticiden!',
-            ]
-        };  
+        
     }
 
     render() {
