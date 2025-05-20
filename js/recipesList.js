@@ -186,7 +186,7 @@ const allIngredients = [
 
 
 
-const Drought = new Recipe('Het heeft al weken niet geregend! Wat kan ik doen om er voor te zorgen dat mijn planten opnieuw water kunnen opnemen?',
+const Drought = new Recipe('Het heeft al weken niet geregend! Wat kan ik doen om ervoor te zorgen dat mijn planten opnieuw water kunnen opnemen?',
     [
         new D_Chemical(10),
         new D_CRISPR(60),
@@ -206,7 +206,7 @@ const Drought = new Recipe('Het heeft al weken niet geregend! Wat kan ik doen om
 
 
 
-const Flooding = new Recipe('Het is al weken aan het regenen! Wat kan ik doen om er voor te zorgen dat mijn planten niet verdrinken?',
+const Flooding = new Recipe('Het is al weken aan het regenen! Wat kan ik doen om ervoor te zorgen dat mijn planten niet verdrinken?',
     [
         new F_Chemical(10),
         new F_CRISPR(60),
